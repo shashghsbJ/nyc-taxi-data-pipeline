@@ -1,23 +1,21 @@
-# NYC Taxi Data Pipeline 🚖
+// Copyright Shashi Preetham Adhimulapu
+# NYC Taxi Data Pipeline
 
-## Project Overview
-
-This project builds an end-to-end data pipeline using Azure services to process NYC Taxi trip data.
+## Overview
+Built an end-to-end data pipeline using Azure and Databricks to process NYC taxi data and visualize insights using Power BI.
 
 ## Tech Stack
+- Azure Data Lake Storage Gen2
+- Databricks (PySpark)
+- Power BI
 
-* Azure Data Factory (Data ingestion)
-* Azure Data Lake Storage (Storage)
-* Azure Databricks (Data processing with PySpark)
-* Azure SQL Database (Serving layer)
-* Power BI (Dashboard)
+## Architecture
+Bronze → Silver → Gold
 
-## Goals
+## Features
+- Cleaned raw taxi data
+- Created aggregated metrics (trips, revenue)
+- Built dashboard for insights
 
-* Build a scalable ETL pipeline
-* Process large taxi trip datasets
-* Generate insights like revenue and peak hours
-
-## Status
-
-🚧 In Progress
+## Dashboard
+![Dashboard](dashboard/powerbi_dashboard.png)
