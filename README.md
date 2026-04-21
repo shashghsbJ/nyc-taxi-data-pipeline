@@ -17,5 +17,11 @@ Bronze → Silver → Gold
 - Created aggregated metrics (trips, revenue)
 - Built dashboard for insights
 
+## Pipeline
+
+Azure Data Factory pipeline used for orchestration.
+
+![Pipeline](pipeline/adf_pipeline.png)
+
 ## Dashboard
 ![Dashboard](dashboard/powerbi_dashboard.png)
